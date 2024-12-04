@@ -1,0 +1,7 @@
+# Part Pose - This is the request part of the srv
+geometry_msgs/Pose part_pose
+---
+# Number of solutions returned
+int8 num_sols
+# The joint angles to reach the part
+ik_service/JointSolutions[] joint_solutions

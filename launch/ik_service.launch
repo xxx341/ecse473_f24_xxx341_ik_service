@@ -1,0 +1,8 @@
+<launch>
+  <!-- Launch the service node -->
+  <node name="ik_service" pkg="ik_service" type="ik_service" output="screen" />
+
+  <!-- Optional: Launch the client node -->
+  <!-- Uncomment this line to run the client alongside the service -->
+  <!-- <node name="ik_client" pkg="ik_service" type="ik_client" output="screen" /> -->
+</launch>
